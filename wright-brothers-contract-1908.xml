@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="wright-brothers-contract-1908.css"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" version="3.1">
+  <doc name="contract" contains="singleVersion">
+    <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/!main"/>
+          <FRBRuri value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers"/>
+          <FRBRalias value="Wright Brothers contract" name="short"/>
+          <FRBRdate date="1908-02-10" name="execution"/>
+          <FRBRauthor href="#signalCorps" as="#firstParty"/><FRBRauthor href="#wrightBrothers" as="#contractor"/>
+          <FRBRcountry value="us"/>
+          <FRBRsubtype value="contract"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/eng@1908-02-10/!main"/>
+          <FRBRuri value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/eng@1908-02-10"/>
+          <FRBRdate date="1908-02-10" name="execution"/>
+          <FRBRauthor href="#signalCorps" as="#firstParty"/><FRBRauthor href="#wrightBrothers" as="#contractor"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/eng@1908-02-10/!main.xml"/>
+          <FRBRuri value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/eng@1908-02-10.xml"/>
+          <FRBRdate date="2026-11-04" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#gvergottini">
+        <eventRef eId="ev_exec" GUID="EF7E6900-97C2-47A4-B9B3-10387012986F" date="1908-02-10" source="#ro_self" type="generation"/>
+      </lifecycle>
+      <references source="#gvergottini">
+        <original eId="ro_self" GUID="6359A546-B66C-4E5E-BDF8-6E7C45FBEE14" href="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/eng@1908-02-10" showAs="Articles of Agreement, February 10, 1908"/>
+        <TLCPerson eId="wallace" GUID="7FC4563A-D65E-4A5B-9074-F609E22C490A" href="/ontology/person/us.chasSWallace" showAs="Chas. S. Wallace"/>
+        <TLCPerson eId="wilbur" GUID="31FCDA4B-CEBB-4A78-AAE7-BB28A1CEBA90" href="/ontology/person/us.wilburWright" showAs="Wilbur Wright"/>
+        <TLCPerson eId="orville" GUID="1CB4DE90-33A2-4EC2-BEBD-8D514D7A6F9C" href="/ontology/person/us.orvilleWright" showAs="Orville Wright"/>
+        <TLCPerson eId="jamesAllen" GUID="37AF4043-1FDB-41C3-BCC7-42C6F6A7CD3E" href="/ontology/person/us.jamesAllen" showAs="James Allen"/>
+        <TLCPerson eId="gvergottini" GUID="71BA72E1-3477-4E2A-BFF6-43E30355B904" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCOrganization eId="unitedStates" GUID="81096896-768E-42D9-98D6-A012F46FEF10" href="/ontology/organization/us.unitedStates" showAs="United States of America"/>
+        <TLCOrganization eId="signalCorps" GUID="AF3CAD41-73C3-4AA2-8937-043E5D084422" href="/ontology/organization/us.signalCorps" showAs="Signal Corps, United States Army"/>
+        <TLCOrganization eId="wrightBrothers" GUID="A5F0DA41-45A1-4E16-9774-767A0AB82B10" href="/ontology/organization/us.wrightBrothers" showAs="Wright Brothers"/>
+        <TLCRole eId="firstParty" GUID="8667BF9E-CD77-4587-9CD5-BA2C222BB7F1" href="/ontology/role/partyOfTheFirstPart" showAs="Party of the first part"/>
+        <TLCRole eId="contractor" GUID="0C81511B-F34B-46E9-B6A0-F95D201F25AE" href="/ontology/role/contractor" showAs="Contractor"/>
+        <TLCRole eId="chiefSignalOfficer" GUID="CFDAC61A-F010-4CA2-808B-6DB720F77BF0" href="/ontology/role/us.chiefSignalOfficer" showAs="Chief Signal Officer"/>
+        <TLCPerson eId="witness1" GUID="1914996A-B72A-499B-A9EF-F4C7B3A27D5B" href="/ontology/person/us.johnJMullaney" showAs="John J. Mullaney"/>
+        <TLCPerson eId="witness2" GUID="421E32AA-D7A8-433F-A202-01BE3A6FA341" href="/ontology/person/us.witness2" showAs="Second witness"/>
+        <TLCPerson eId="witness3" GUID="A815B7F3-4ABA-4009-B29A-E12D1A89154C" href="/ontology/person/us.witness3" showAs="Third witness"/>
+        <TLCPerson eId="witness4" GUID="685E9AF5-7461-4C4C-A41F-269DB9948156" href="/ontology/person/us.hLHoffman" showAs="H. L. Hoffman"/>
+        <TLCRole eId="witness" GUID="A3BFD0CC-B712-495B-B3A1-FD206569A8D9" href="/ontology/role/witness" showAs="Witness"/>
+        <TLCRole eId="editor" GUID="33300C0A-9DB2-4F9B-BD9B-F695A7ECA5FD" href="/ontology/role/editor" showAs="Editor"/>
+        <TLCLocation eId="fortMyer" GUID="CF827E6E-4408-4CC3-B00D-E9F37DBC6BF7" href="/ontology/location/us.fortMyer" showAs="Fort Myer, Virginia"/>
+        <TLCConcept eId="flyingMachine" GUID="2A780F84-668B-490C-BFD0-1FF0A48699E1" href="/ontology/concept/heavierThanAirFlyingMachine" showAs="Heavier-than-air flying machine"/>
+        <TLCConcept eId="price" GUID="B9C82389-904B-488A-99B9-6ABFC0E63852" href="/ontology/concept/contractPrice" showAs="Contract price"/>
+        <TLCConcept eId="deliveryDeadline" GUID="EA412769-8095-41CA-AC7B-CB3DA1E5C23F" href="/ontology/concept/deliveryDeadline" showAs="Delivery deadline"/>
+        <TLCConcept eId="speed" GUID="1435BF16-A7BC-4BE6-AF5E-E85DA3739755" href="/ontology/concept/speedInMilesPerHour" showAs="Speed in miles per hour"/>
+        <TLCConcept eId="priceFactor" GUID="6A326DD1-E440-460B-A3BE-BBE9A21F384B" href="/ontology/concept/priceFactorPercent" showAs="Percentage of the 40-mile price"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="receivedStamp"><inline name="stampLine">Rec'd <date date="1908-04-02">APR 2 1908</date></inline> <inline name="stampLine">Ack'd APR 2 1908</inline> <inline name="stampLine">War Dept</inline></block>
+      <p class="office"><organization refersTo="#signalCorps">Signal Corps, United States Army</organization></p>
+    </preface>
+    <preamble>
+      <p class="opening"><docTitle>These Articles of Agreement</docTitle> entered into this <inline name="filled"><date date="1908-02-10">tenth</date></inline> day of <inline name="filled">February</inline>, nineteen hundred and <inline name="filled">eight</inline>, between <inline name="filled"><party refersTo="#wallace" as="#firstParty">Chas. S. Wallace</party>,</inline> <inline name="filled">Captain</inline>, Signal Corps, United States Army, of the first part, and</p>
+      <p class="typed center"><party refersTo="#wrightBrothers" as="#contractor"><person refersTo="#wilbur">Wilbur</person> and <person refersTo="#orville">Orville Wright</person>, trading as Wright Brothers</party>, of <location refersTo="#wrightBrothers">1127 West Third Street, Dayton</location>,</p>
+      <p>in the county of <inline name="filled">Montgomery</inline> State of <inline name="filled">Ohio</inline> of the second part. WITNESSETH, that in conformity with copy of the advertisement, specifications, and proposal hereunto attached, and which, in so far as they relate to this contract, form a part of it, the said <inline name="filled">Chas. S. Wallace, Captain,</inline> Signal Corps, United States Army, for and in behalf of the United States of America, and the said <inline name="filled">Wright Brothers</inline> (hereinafter designated as the contractor) do covenant and agree, to and with each other, as follows, viz:</p>
+    </preamble>
+    <mainBody>
+        <article eId="art_1" GUID="EC0B9436-3711-4288-A77D-CF2C3823887B">
+          <num>ARTICLE I.</num>
+          <content><p>That the said contractor shall <inline name="typed">manufacture for and deliver to the United States of America,</inline></p><p class="typed">One (1) <inline name="item" refersTo="#flyingMachine">heavier-than-air flying machine</inline>, in accordance with <ref href="#att_spec">Signal Corps Specification No. 486</ref>, dated <date date="1907-12-23">December 23, 1907</date>.</p></content>
+        </article>
+        <article eId="art_2" GUID="11D88C3B-72E7-4E15-8986-8AA0EAACE391">
+          <num>ART. II.</num>
+          <content><p>That the deliveries of the supplies and materials herein contracted for shall be made in the manner, numbers, or quantities, and for each number or quantity, on or before the date specified therefor, as follows, viz:</p><p class="typed">That complete delivery shall be made on or before <date date="1908-08-28" refersTo="#deliveryDeadline">August 28, 1908</date>.</p></content>
+        </article>
+        <article eId="art_3" GUID="32E5A951-C19D-4E22-A7ED-F9E072C54F88">
+          <num>ART. III.</num>
+          <content><p>All supplies and materials furnished and work done under this contract shall, before being accepted, be subject to a rigid inspection by an inspector appointed on the part of the Government, and such as do not conform to the specifications set forth in this contract shall be rejected. The decision of the <role refersTo="#chiefSignalOfficer">Chief Signal Officer, United States Army</role>, as to quality and quantity shall be final.</p></content>
+        </article>
+        <article eId="art_4" GUID="03A21E64-3863-454F-B45C-969CC08338C5">
+          <num>ART. IV.</num>
+          <content><p>That for and in consideration of the faithful performance of the stipulations of this contract, the contractor shall be paid at the office of <inline name="filled">the Chief Signal Officer of the Army</inline> at <inline name="filled">Washington, D. C.</inline> for all supplies and materials delivered in conformity with the requirements of this contract, on or before the dates above specified (<ref href="#art_2">Article II</ref>, <i>supra</i>) <i>and accepted</i>, the following prices, viz:</p><p class="typed">One (1) heavier-than-air flying machine at a total cost of <quantity normalized="25000" refersTo="#price">twenty-five thousand (25,000) dollars</quantity>.</p><p>to be paid as soon as practicable after the acceptance of the same, in funds furnished by the United States for the purpose, reserving <fillIn/> per cent from each payment until final settlement, on completion of the contract or otherwise.</p></content>
+        </article>
+        <article eId="art_5" GUID="C882B324-49FD-41CC-B39D-0FCF68F2E048">
+          <num>ART. V.</num>
+          <content><p>It is further agreed that for all supplies and materials which shall not be delivered in conformity with the requirements of this contract on or before the dates prescribed therefor in <ref href="#art_2">Article II</ref>, above, but which shall be subsequently delivered and accepted, the prices shall be as follows: <omissis/></p></content>
+        </article>
+        <article eId="art_6" GUID="7E00DF8D-5887-429C-AF2B-1A1044889B63">
+          <num>[ART. VI.]</num>
+          <content><p class="resumes"><omissis/> within the time and in the manner specified above, <rref from="#art_1" upTo="#art_3">Articles I to III, inclusive</rref>, the said party of the first part may, instead of waiting further for deliveries under the provisions of the preceding article, supply the deficiency by purchase in open market or otherwise, at such place as may be selected (the articles so procured to be the kind herein specified, as near as practicable); and the said contractor shall be charged with the increased cost of the supplies and materials so purchased over what they would have cost if delivered by the contractor on the date they were received under such open-market purchase.</p></content>
+        </article>
+        <article eId="art_7" GUID="7AA580E7-A007-4784-8EB9-D8D5F3B9BDAD">
+          <num>ART. VII.</num>
+          <content><p>It is further agreed by and between the parties hereto that until final inspection and acceptance of, and payment for, all of the supplies and materials and work herein provided for, no prior inspection, payment, or act is to be construed as a waiver of the right of the party of the first part to reject any defective articles or supplies or to require the fulfillment of any of the terms of the contract.</p></content>
+        </article>
+        <article eId="art_8" GUID="70D42DB9-62D8-4A37-9B86-4C23D0CCD8DD">
+          <num>ART. VIII.</num>
+          <content><p>The contractor further agrees to hold and save the United States harmless from and against all and every demand, or demands, of any nature or kind for, or on account of, the use of any patented invention, article, or process included in the materials hereby agreed to be furnished and work to be done under this contract.</p></content>
+        </article>
+        <article eId="art_9" GUID="6E9602AD-2E2C-4730-8CEA-962157C2EAB8">
+          <num>ART. IX.</num>
+          <content><p>Neither this contract nor any interest herein shall be transferred to any other party or parties, and in case of such transfer the United States may refuse to carry out this contract either with the transferor or the transferee, but all rights of action for any breach of this contract by said contractor are reserved to the United States.</p></content>
+        </article>
+        <article eId="art_10" GUID="507A94E4-1F39-4667-8817-E876A4773654">
+          <num>ART. X.</num>
+          <content><p>No Member of or Delegate to Congress, nor any person belonging to, or employed in, the military service of the United States, is or shall be admitted to any share or part of this contract, or to any benefit which may arise therefrom.<authorialNote marker="*" placement="bottom"><p>Here add to any contract made with an incorporated company for its general benefit the following words, viz: “But this stipulation, so far as it relates to Members or Delegates to Congress, is not to be construed to extend to this contract.” See section 3740, Revised Statutes.</p></authorialNote></p></content>
+        </article>
+        <article eId="art_11" GUID="1F9FBBAC-D094-486D-BDFD-D71E6208910B">
+          <num>ART. XI.</num>
+          <content><p>That it is expressly agreed and understood that this contract shall be noneffective until an appropriation adequate to its fulfillment is made by Congress and is available.</p></content>
+        </article>
+        <article eId="art_12" GUID="23CF23D6-4094-4DCE-B043-7EE293C62E2E">
+          <num>ART. XII.</num>
+          <content><p>That this contract shall be subject to approval of the Chief Signal Officer, United States Army.</p></content>
+        </article>
+    </mainBody>
+    <conclusions>
+      <p class="witness">IN WITNESS WHEREOF the parties aforesaid have hereunto placed their hands the date first hereinbefore written.</p>
+      <container name="signatures">
+        <p class="witnesses">WITNESSES:</p>
+        <container name="signatureBlock">
+          <p class="wit"><signature refersTo="#witness1">John J. Mullaney</signature></p>
+          <p class="wit"><signature refersTo="#witness2">[not read]</signature></p>
+          <p class="sig"><signature refersTo="#wallace"><person refersTo="#wallace">Chas. S. Wallace</person></signature></p>
+          <p class="cap">Signal Corps, U. S. Army.</p>
+        </container>
+        <container name="signatureBlock">
+          <p class="wit"><signature refersTo="#witness3">[not read]</signature></p>
+          <p class="wit"><signature refersTo="#witness4">H. L. Hoffman</signature></p>
+          <p class="sig"><signature refersTo="#wrightBrothers"><organization refersTo="#wrightBrothers">Wright Brothers</organization></signature></p>
+          <p class="by">by <signature refersTo="#orville"><person refersTo="#orville">Orville Wright</person></signature></p>
+        </container>
+        <container name="approval">
+          <p class="approved">APPROVED: <fillIn/>, 190<fillIn/></p>
+          <p class="sig"><signature refersTo="#jamesAllen"><person refersTo="#jamesAllen" as="#chiefSignalOfficer">James Allen</person></signature></p>
+          <p class="cap">Brigadier General,</p>
+          <p class="cap">Chief Signal Officer of the Army.</p>
+        </container>
+      </container>
+    </conclusions>
+    <attachments>
+      <attachment eId="att_spec" GUID="512903F9-9F8A-42F6-BB56-3E98F95FED06">
+        <doc name="specification">
+          <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/us/doc/specification/1907-12-23/signal-corps-486/!main"/>
+          <FRBRuri value="/akn/us/doc/specification/1907-12-23/signal-corps-486"/>
+          <FRBRalias value="Signal Corps Specification No. 486" name="short"/>
+          <FRBRdate date="1907-12-23" name="publication"/>
+          <FRBRauthor href="#signalCorps" as="#firstParty"/><FRBRauthor href="#wrightBrothers" as="#contractor"/>
+          <FRBRcountry value="us"/>
+          <FRBRsubtype value="specification"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us/doc/specification/1907-12-23/signal-corps-486/eng@1907-12-23/!main"/>
+          <FRBRuri value="/akn/us/doc/specification/1907-12-23/signal-corps-486/eng@1907-12-23"/>
+          <FRBRdate date="1907-12-23" name="publication"/>
+          <FRBRauthor href="#signalCorps" as="#firstParty"/><FRBRauthor href="#wrightBrothers" as="#contractor"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us/doc/specification/1907-12-23/signal-corps-486/eng@1907-12-23/!main.xml"/>
+          <FRBRuri value="/akn/us/doc/specification/1907-12-23/signal-corps-486/eng@1907-12-23.xml"/>
+          <FRBRdate date="2026-11-04" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+            <references source="#gvergottini">
+              <TLCPerson eId="spec_allen" GUID="9CBD4AD6-745A-4C20-8AF4-F8BD2EA20F2F" href="/ontology/person/us.jamesAllen" showAs="James Allen"/>
+            </references>
+          </meta>
+          <preface>
+            <p class="specNo"><docNumber>SIGNAL CORPS SPECIFICATION, NO. 486.</docNumber></p>
+            <longTitle><p>ADVERTISEMENT AND SPECIFICATION FOR A HEAVIER-THAN-AIR FLYING MACHINE.</p></longTitle>
+          </preface>
+          <preamble>
+            <p class="to">To The Public:</p>
+            <p>Sealed proposals, in duplicate, will be received at this office until 12 o'clock noon on <date date="1908-02-01">February 1, 1908</date>, on behalf of the Board of Ordnance and Fortification for furnishing the Signal Corps with a heavier-than-air flying machine. All proposals received will be turned over to the Board of Ordnance and Fortification at its first meeting after February 1 for its official action.</p>
+            <p>Persons wishing to submit proposals under this specification can obtain the necessary forms and envelopes by application to the Chief Signal Officer, United States Army, War Department, Washington, D. C. The United States reserves the right to reject any and all proposals.</p>
+            <p>Unless the bidders are also the manufacturers of the flying machine they must state the name and place of the maker.</p>
+            <p><i>Preliminary.</i>—This specification covers the construction of a flying machine supported entirely by the dynamic reaction of the atmosphere and having no gas bag.</p>
+            <p><i>Acceptance.</i>—The flying machine will be accepted only after a successful trial flight, during which it will comply with all requirements of this specification. No payments on account will be made until after the trial flight and acceptance.</p>
+            <p><i>Inspection.</i>—The Government reserves the right to inspect any and all processes of manufacture.</p>
+            <p>The general dimensions of the flying machine will be determined by the manufacturer, subject to the following conditions:</p>
+          </preamble>
+          <mainBody>
+        <paragraph eId="att_spec__para_1" GUID="5A6FA7F4-2C66-4380-813E-8865FCCD36DE">
+          <num>1.</num>
+          <list eId="att_spec__para_1__list_1" GUID="FE72CF95-DD42-44D7-BBD7-A22E680037FA">
+            <intro><p>Bidders must submit with their proposals the following:</p></intro>
+            <point eId="att_spec__para_1__list_1__point_a" GUID="4BD3F001-A805-4E25-B645-9DFFE4E96AC0"><num><i>(a)</i></num><content><p>Drawings to scale showing the general dimensions and shape of the flying machine which they propose to build under this specification.</p></content></point>
+            <point eId="att_spec__para_1__list_1__point_b" GUID="A8312FCD-AD1C-4D85-9950-3398A18E2B95"><num><i>(b)</i></num><content><p>Statement of the speed for which it is designed.</p></content></point>
+            <point eId="att_spec__para_1__list_1__point_c" GUID="28ECDAD8-1BC4-454C-8269-4AD311960CAB"><num><i>(c)</i></num><content><p>Statement of the total surface area of the supporting planes.</p></content></point>
+            <point eId="att_spec__para_1__list_1__point_d" GUID="FE906C51-EBDA-4DA2-8D73-73262E7E7995"><num><i>(d)</i></num><content><p>Statement of the total weight.</p></content></point>
+            <point eId="att_spec__para_1__list_1__point_e" GUID="10469431-B11E-47BC-AE94-AEED460B69AA"><num><i>(e)</i></num><content><p>Description of the engine which will be used for motive power.</p></content></point>
+            <point eId="att_spec__para_1__list_1__point_f" GUID="3BD9E8C6-794C-433D-A2B6-63CC46352326"><num><i>(f)</i></num><content><p>The material of which the frame, planes, and propellers will be constructed. Plans received will not be shown to other bidders.</p></content></point>
+          </list>
+        </paragraph>
+        <paragraph eId="att_spec__para_2" GUID="3DECDC90-C573-480F-9E72-A0589281CF78">
+          <num>2.</num>
+          <content><p>It is desirable that the flying machine should be designed so that it may be quickly and easily assembled and taken apart and packed for transportation in army wagons. It should be capable of being assembled and put in operating condition in about one hour.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_3" GUID="A855B976-24A0-4C7A-9FE5-E2A82DBB8EE1">
+          <num>3.</num>
+          <content><p>The flying machine must be designed to carry two persons having a combined weight of about 350 pounds, also sufficient fuel for a flight of 125 miles.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_4" GUID="5D26CCF2-3ADD-4FB3-818A-97CF793D0D1F">
+          <num>4.</num>
+          <content>
+            <p>The flying machine should be designed to have a speed of at least forty miles per hour in still air, but bidders must submit quotations in their proposals for cost depending upon the speed attained during the trial flight, according to the following scale:</p>
+            <p class="scale"><quantity normalized="40" refersTo="#speed">40 miles per hour</quantity>, <quantity normalized="100" refersTo="#priceFactor">100 per cent</quantity>.</p>
+            <p class="scale"><quantity normalized="39" refersTo="#speed">39 miles per hour</quantity>, <quantity normalized="90" refersTo="#priceFactor">90 per cent</quantity>.</p>
+            <p class="scale"><quantity normalized="38" refersTo="#speed">38 miles per hour</quantity>, <quantity normalized="80" refersTo="#priceFactor">80 per cent</quantity>.</p>
+            <p class="scale"><quantity normalized="37" refersTo="#speed">37 miles per hour</quantity>, <quantity normalized="70" refersTo="#priceFactor">70 per cent</quantity>.</p>
+            <p class="scale"><quantity normalized="36" refersTo="#speed">36 miles per hour</quantity>, <quantity normalized="60" refersTo="#priceFactor">60 per cent</quantity>.</p>
+            <p class="scale">Less than <quantity normalized="36" refersTo="#speed">36 miles per hour</quantity> rejected.</p>
+            <p class="scale"><quantity normalized="41" refersTo="#speed">41 miles per hour</quantity>, <quantity normalized="110" refersTo="#priceFactor">110 per cent</quantity>.</p>
+            <p class="scale"><quantity normalized="42" refersTo="#speed">42 miles per hour</quantity>, <quantity normalized="120" refersTo="#priceFactor">120 per cent</quantity>.</p>
+            <p class="scale"><quantity normalized="43" refersTo="#speed">43 miles per hour</quantity>, <quantity normalized="130" refersTo="#priceFactor">130 per cent</quantity>.</p>
+            <p class="scale"><quantity normalized="44" refersTo="#speed">44 miles per hour</quantity>, <quantity normalized="140" refersTo="#priceFactor">140 per cent</quantity>.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="att_spec__para_5" GUID="17A26D5F-D622-4B1D-A2E2-C33D2632D13F">
+          <num>5.</num>
+          <content><p>The speed accomplished during the trial flight will be determined by taking an average of the time over a measured course of more than five miles, against and with the wind. The time will be taken by a flying start, passing the starting point at full speed at both ends of the course. This test subject to such additional details as the Chief Signal Officer of the Army may prescribe at the time.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_6" GUID="65EF8E20-A39F-4B48-8148-F68497243657">
+          <num>6.</num>
+          <content><p>Before acceptance a trial endurance flight will be required of at least one hour during which time the flying machine must remain continuously in the air without landing. It shall return to the starting point and land without any damage that would prevent it immediately starting upon another flight. During this trial flight of one hour it must be steered in all directions without difficulty and at all times under perfect control and equilibrium.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_7" GUID="68031DE1-5048-4EB2-B7BD-CFEF99A41ABA">
+          <num>7.</num>
+          <content><p>Three trials will be allowed for speed as provided for in <rref from="#att_spec__para_4" upTo="#att_spec__para_5">paragraphs 4 and 5</rref>. Three trials for endurance as provided for in <ref href="#att_spec__para_6">paragraph 6</ref>, and both tests must be completed within a period of thirty days from the date of delivery. The expense of the tests to be borne by the manufacturer. The place of delivery to the Government and trial flights will be at <location refersTo="#fortMyer">Fort Myer, Virginia</location>.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_8" GUID="31B4E7AB-4FC5-4837-BEE5-3F30794D684C">
+          <num>8.</num>
+          <content><p>It should be so designed as to ascend in any country which may be encountered in field service. The starting device must be simple and transportable. It should also land in a field without requiring a specially prepared spot and without damaging its structure.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_9" GUID="4F0AD86E-D074-474C-BD0B-9DAEE01BEC54">
+          <num>9.</num>
+          <content><p>It should be provided with some device to permit of a safe descent in case of an accident to the propelling machinery.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_10" GUID="961D00EC-9C03-44EC-B1FA-C7F9C614F837">
+          <num>10.</num>
+          <content><p>It should be sufficiently simple in its construction and operation to permit an intelligent man to become proficient in its use within a reasonable length of time.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_11" GUID="4F573AF6-D6AC-44FA-870F-CA03985A5DB4">
+          <num>11.</num>
+          <content><p>Bidders must furnish evidence that the Government of the United States has the lawful right to use all patented devices or appurtenances which may be a part of the flying machine, and that the manufacturers of the flying machine are authorized to convey the same to the Government. This refers to the unrestricted right to use the flying machine sold to the Government, but does not contemplate the exclusive purchase of patent rights for duplicating the flying machine.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_12" GUID="1C5BCC14-AB21-45ED-A3A2-C8D15F132A78">
+          <num>12.</num>
+          <content><p>Bidders will be required to furnish with their proposal a certified check amounting to ten per cent of the price stated for the 40-mile speed. Upon making the award for the flying machine these certified checks will be returned to the bidders, and the successful bidder will be required to furnish a bond, according to Army Regulations, of the amount equal to the price stated for the 40-mile speed.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_13" GUID="D1C064A7-766C-46D8-8288-71A38A795BF0">
+          <num>13.</num>
+          <content><p>The price quoted in proposals must be understood to include the instruction of two men in the handling and operation of this flying machine. No extra charge for this service will be allowed.</p></content>
+        </paragraph>
+        <paragraph eId="att_spec__para_14" GUID="73AE107E-B896-4915-8DC8-12E447F59CA8">
+          <num>14.</num>
+          <content><p>Bidders must state the time which will be required for delivery after receipt of order.</p></content>
+        </paragraph>
+          </mainBody>
+          <conclusions>
+            <p class="sig2"><signature refersTo="#spec_allen"><person refersTo="#spec_allen">JAMES ALLEN,</person></signature></p>
+            <p class="cap2"><i>Brigadier General, Chief Signal Officer of the Army.</i></p>
+            <p class="place">SIGNAL OFFICE</p>
+            <p class="place2">WASHINGTON, D. C., <date date="1907-12-23"><i>December 23, 1907.</i></date></p>
+          </conclusions>
+        </doc>
+      </attachment>
+      <attachment eId="att_rules" GUID="4CD4D2E4-1DFF-463F-81EF-6FB2EB2F31DF">
+        <doc name="legalRuleML">
+          <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/rules/!main"/>
+          <FRBRuri value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/rules"/>
+          <FRBRalias value="LegalRuleML rules for the Wright Brothers contract" name="short"/>
+          <FRBRdate date="2026-11-04" name="generation"/>
+          <FRBRauthor href="#signalCorps" as="#firstParty"/><FRBRauthor href="#wrightBrothers" as="#contractor"/>
+          <FRBRcountry value="us"/>
+          <FRBRsubtype value="legalRuleML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/rules/eng@2026-11-04/!main"/>
+          <FRBRuri value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/rules/eng@2026-11-04"/>
+          <FRBRdate date="2026-11-04" name="generation"/>
+          <FRBRauthor href="#signalCorps" as="#firstParty"/><FRBRauthor href="#wrightBrothers" as="#contractor"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/rules/eng@2026-11-04/!main.xml"/>
+          <FRBRuri value="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/rules/eng@2026-11-04.xml"/>
+          <FRBRdate date="2026-11-04" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+          </meta>
+          <mainBody>
+            <foreign>
+    <lrml:LegalRuleML xmlns:lrml="http://docs.oasis-open.org/legalruleml/ns/v1.0/" xmlns:ruleml="http://ruleml.org/spec">
+      <lrml:Prefix pre="contract" refID="/akn/us/doc/contract/1908-02-10/signal-corps-wright-brothers/eng@1908-02-10/!main#"/>
+      <lrml:Prefix pre="wb" refID="https://grantcv1.github.io/us-wright-brothers-contract-1908/vocabulary#"/>
+      <lrml:LegalReferences>
+        <lrml:LegalReference refersTo="ref_art_1" refID="contract:art_1"/>
+        <lrml:LegalReference refersTo="ref_art_2" refID="contract:art_2"/>
+        <lrml:LegalReference refersTo="ref_art_3" refID="contract:art_3"/>
+        <lrml:LegalReference refersTo="ref_art_4" refID="contract:art_4"/>
+        <lrml:LegalReference refersTo="ref_art_6" refID="contract:art_6"/>
+        <lrml:LegalReference refersTo="ref_art_7" refID="contract:art_7"/>
+        <lrml:LegalReference refersTo="ref_art_8" refID="contract:art_8"/>
+        <lrml:LegalReference refersTo="ref_art_9" refID="contract:art_9"/>
+        <lrml:LegalReference refersTo="ref_art_10" refID="contract:art_10"/>
+        <lrml:LegalReference refersTo="ref_art_11" refID="contract:art_11"/>
+        <lrml:LegalReference refersTo="ref_art_12" refID="contract:art_12"/>
+        <lrml:LegalReference refersTo="ref_att_spec__para_4" refID="contract:att_spec__para_4"/>
+        <lrml:LegalReference refersTo="ref_att_spec__para_6" refID="contract:att_spec__para_6"/>
+        <lrml:LegalReference refersTo="ref_att_spec__para_7" refID="contract:att_spec__para_7"/>
+        <lrml:LegalReference refersTo="ref_att_spec__para_13" refID="contract:att_spec__para_13"/>
+        <lrml:LegalReference refersTo="ref_att_spec__para_5" refID="contract:att_spec__para_5"/>
+      </lrml:LegalReferences>
+      <lrml:Agents>
+        <lrml:Agent key="unitedStates" sameAs="#unitedStates"/>
+        <lrml:Agent key="contractor" sameAs="#wrightBrothers"/>
+        <lrml:Agent key="chiefSignalOfficer" sameAs="#jamesAllen"/>
+      </lrml:Agents>
+      <lrml:Associations>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_1"/><lrml:toTarget keyref="#ps_deliver"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_2"/><lrml:toTarget keyref="#ps_deadline"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_3"/><lrml:toTarget keyref="#cs_reject"/><lrml:toTarget keyref="#cs_final"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_4"/><lrml:toTarget keyref="#ps_pay"/><lrml:toTarget keyref="#cs_base"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_6"/><lrml:toTarget keyref="#ps_cover"/><lrml:toTarget keyref="#pen_cover"/><lrml:toTarget keyref="#rep_cover"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_7"/><lrml:toTarget keyref="#cs_nowaiver"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_8"/><lrml:toTarget keyref="#ps_harmless"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_9"/><lrml:toTarget keyref="#ps_transfer"/><lrml:toTarget keyref="#ps_refuse"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_10"/><lrml:toTarget keyref="#ps_congress"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_11"/><lrml:toTarget keyref="#cs_appropriation"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_art_12"/><lrml:toTarget keyref="#cs_approval"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_att_spec__para_4"/><lrml:toTarget keyref="#cs_speedFloor"/><lrml:toTarget keyref="#cs_scale_40"/><lrml:toTarget keyref="#cs_scale_39"/><lrml:toTarget keyref="#cs_scale_38"/><lrml:toTarget keyref="#cs_scale_37"/><lrml:toTarget keyref="#cs_scale_36"/><lrml:toTarget keyref="#cs_scale_41"/><lrml:toTarget keyref="#cs_scale_42"/><lrml:toTarget keyref="#cs_scale_43"/><lrml:toTarget keyref="#cs_scale_44"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_att_spec__para_6"/><lrml:toTarget keyref="#ps_endurance"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_att_spec__para_7"/><lrml:toTarget keyref="#ps_trials"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_att_spec__para_13"/><lrml:toTarget keyref="#ps_train"/></lrml:Association>
+        <lrml:Association><lrml:appliesSource keyref="#ref_att_spec__para_5"/><lrml:toTarget keyref="#cs_accept"/></lrml:Association>
+      </lrml:Associations>
+      <lrml:Statements key="contractRules">
+        <lrml:PrescriptiveStatement key="ps_deliver"><ruleml:Rule key="ps_deliver_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>The contractor must manufacture and deliver one heavier-than-air flying machine that meets Specification No. 486.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:deliver"/><ruleml:Ind>contractor</ruleml:Ind><ruleml:Var>m</ruleml:Var><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:Atom></lrml:Obligation></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PrescriptiveStatement key="ps_deadline"><ruleml:Rule key="ps_deadline_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>Delivery must be complete on or before August 28, 1908.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:deliveredOnOrBefore"/><ruleml:Var>m</ruleml:Var><ruleml:Data>1908-08-28</ruleml:Data></ruleml:Atom></lrml:Obligation></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:ConstitutiveStatement key="cs_reject"><ruleml:Rule key="cs_reject_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:notConforming"/><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:rejected"/><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_final"><ruleml:Rule key="cs_final_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:decidedQualityOrQuantity"/><ruleml:Ind>chiefSignalOfficer</ruleml:Ind><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:final"/><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:PrescriptiveStatement key="ps_pay"><ruleml:Rule key="ps_pay_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:And><ruleml:Atom><ruleml:Rel iri="wb:delivered"/><ruleml:Var>m</ruleml:Var></ruleml:Atom><ruleml:Atom><ruleml:Rel iri="wb:accepted"/><ruleml:Var>m</ruleml:Var></ruleml:Atom><ruleml:Atom><ruleml:Rel iri="wb:price"/><ruleml:Var>m</ruleml:Var><ruleml:Var>p</ruleml:Var></ruleml:Atom></ruleml:And></ruleml:if><ruleml:then><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>After delivery and acceptance, the United States must pay the price, at the office of the Chief Signal Officer in Washington, as soon as practicable.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#unitedStates"/><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:pay"/><ruleml:Ind>unitedStates</ruleml:Ind><ruleml:Ind>contractor</ruleml:Ind><ruleml:Var>p</ruleml:Var></ruleml:Atom></lrml:Obligation></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:ConstitutiveStatement key="cs_base"><ruleml:Rule key="cs_base_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:basePrice"/><ruleml:Data>25000</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_40"><ruleml:Rule key="cs_scale_40_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>40</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>100</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_39"><ruleml:Rule key="cs_scale_39_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>39</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>90</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_38"><ruleml:Rule key="cs_scale_38_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>38</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>80</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_37"><ruleml:Rule key="cs_scale_37_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>37</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>70</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_36"><ruleml:Rule key="cs_scale_36_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>36</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>60</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_41"><ruleml:Rule key="cs_scale_41_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>41</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>110</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_42"><ruleml:Rule key="cs_scale_42_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>42</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>120</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_43"><ruleml:Rule key="cs_scale_43_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>43</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>130</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_scale_44"><ruleml:Rule key="cs_scale_44_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeed"/><ruleml:Var>m</ruleml:Var><ruleml:Data>44</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:priceFactor"/><ruleml:Var>m</ruleml:Var><ruleml:Data>140</ruleml:Data></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_speedFloor"><ruleml:Rule key="cs_speedFloor_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:attainedSpeedBelow"/><ruleml:Var>m</ruleml:Var><ruleml:Data>36</ruleml:Data></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:rejected"/><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_accept"><ruleml:Rule key="cs_accept_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:And><ruleml:Atom><ruleml:Rel iri="wb:passedSpeedTrial"/><ruleml:Var>m</ruleml:Var></ruleml:Atom><ruleml:Atom><ruleml:Rel iri="wb:passedEnduranceTrial"/><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:And></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:accepted"/><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:PrescriptiveStatement key="ps_endurance"><ruleml:Rule key="ps_endurance_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>Before acceptance, the machine must fly for at least one hour, return to the start and land undamaged, under perfect control.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:enduranceFlight"/><ruleml:Var>m</ruleml:Var><ruleml:Data>PT1H</ruleml:Data></ruleml:Atom></lrml:Obligation></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PrescriptiveStatement key="ps_trials"><ruleml:Rule key="ps_trials_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:delivered"/><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:if><ruleml:then><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>Both tests must be completed within thirty days of delivery, with three trials allowed for each, at the manufacturer's expense.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:completeTrialsWithin"/><ruleml:Var>m</ruleml:Var><ruleml:Data>P30D</ruleml:Data></ruleml:Atom></lrml:Obligation></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PrescriptiveStatement key="ps_train"><ruleml:Rule key="ps_train_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>The price includes the instruction of two men in handling and operating the machine, at no extra charge.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:instruct"/><ruleml:Ind>contractor</ruleml:Ind><ruleml:Data>2</ruleml:Data></ruleml:Atom></lrml:Obligation></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PrescriptiveStatement key="ps_cover"><ruleml:Rule key="ps_cover_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:failedToDeliver"/><ruleml:Ind>contractor</ruleml:Ind><ruleml:Var>m</ruleml:Var></ruleml:Atom></ruleml:if><ruleml:then><lrml:SuborderList><lrml:Permission><lrml:Paraphrase>If the contractor fails to deliver, the United States may buy in the open market instead of waiting.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#unitedStates"/><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:purchaseOpenMarket"/><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:Atom></lrml:Permission></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PenaltyStatement key="pen_cover"><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>The contractor is charged the increased cost of the open-market purchase.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:payIncreasedCost"/><ruleml:Ind>contractor</ruleml:Ind><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:Atom></lrml:Obligation></lrml:SuborderList></lrml:PenaltyStatement>
+        <lrml:ReparationStatement key="rep_cover"><lrml:Reparation><lrml:appliesPenalty keyref="#pen_cover"/><lrml:toPrescriptiveStatement keyref="#ps_deliver"/><lrml:toPrescriptiveStatement keyref="#ps_deadline"/></lrml:Reparation></lrml:ReparationStatement>
+        <lrml:ConstitutiveStatement key="cs_nowaiver"><ruleml:Rule key="cs_nowaiver_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:priorInspectionPaymentOrAct"/><ruleml:Var>a</ruleml:Var></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:notWaiver"/><ruleml:Var>a</ruleml:Var></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:PrescriptiveStatement key="ps_harmless"><ruleml:Rule key="ps_harmless_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><lrml:SuborderList><lrml:Obligation><lrml:Paraphrase>The contractor must hold the United States harmless from patent demands.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:holdHarmless"/><ruleml:Ind>contractor</ruleml:Ind><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:Atom></lrml:Obligation></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PrescriptiveStatement key="ps_transfer"><ruleml:Rule key="ps_transfer_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><lrml:SuborderList><lrml:Prohibition><lrml:Paraphrase>Neither the contract nor any interest in it may be transferred.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#contractor"/><ruleml:Ind>contractor</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:transfer"/><ruleml:Ind>contractor</ruleml:Ind><ruleml:Ind>contract</ruleml:Ind></ruleml:Atom></lrml:Prohibition></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PrescriptiveStatement key="ps_refuse"><ruleml:Rule key="ps_refuse_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:transferred"/><ruleml:Ind>contract</ruleml:Ind></ruleml:Atom></ruleml:if><ruleml:then><lrml:SuborderList><lrml:Permission><lrml:Paraphrase>If the contract is transferred, the United States may refuse to carry it out.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#unitedStates"/><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:refusePerformance"/><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:Atom></lrml:Permission></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:PrescriptiveStatement key="ps_congress"><ruleml:Rule key="ps_congress_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:then><lrml:SuborderList><lrml:Prohibition><lrml:Paraphrase>No Member of or Delegate to Congress, and no one in the military service, may share in the contract.</lrml:Paraphrase><ruleml:slot><lrml:Bearer iri="#unitedStates"/><ruleml:Ind>unitedStates</ruleml:Ind></ruleml:slot><ruleml:Atom><ruleml:Rel iri="wb:admitToShare"/><ruleml:Var>x</ruleml:Var><ruleml:Ind>contract</ruleml:Ind></ruleml:Atom></lrml:Prohibition></lrml:SuborderList></ruleml:then></ruleml:Rule></lrml:PrescriptiveStatement>
+        <lrml:ConstitutiveStatement key="cs_appropriation"><ruleml:Rule key="cs_appropriation_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:appropriationAvailable"/><ruleml:Ind>contract</ruleml:Ind></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:effective"/><ruleml:Ind>contract</ruleml:Ind></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+        <lrml:ConstitutiveStatement key="cs_approval"><ruleml:Rule key="cs_approval_r" closure="universal"><lrml:hasStrength><lrml:StrictStrength iri="wb:strict"/></lrml:hasStrength><ruleml:if><ruleml:Atom><ruleml:Rel iri="wb:approved"/><ruleml:Ind>chiefSignalOfficer</ruleml:Ind><ruleml:Ind>contract</ruleml:Ind></ruleml:Atom></ruleml:if><ruleml:then><ruleml:Atom><ruleml:Rel iri="wb:subjectConditionMet"/><ruleml:Ind>contract</ruleml:Ind></ruleml:Atom></ruleml:then></ruleml:Rule></lrml:ConstitutiveStatement>
+      </lrml:Statements>
+    </lrml:LegalRuleML>
+            </foreign>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </doc>
+</akomaNtoso>
