@@ -50,3 +50,13 @@ Claude read the contract from low-resolution page images and typed the text. The
 ## Fonts
 
 The stylesheet embeds Old Standard TT, UnifrakturCook and Mrs Saint Delafield, under the [SIL Open Font License](https://openfontlicense.org/), and Special Elite, under the Apache License 2.0.
+
+## License
+
+The Akoma Ntoso markup, stylesheet rules, scripts and landing page are under the MIT License in `LICENSE`. That license does not cover the items below, which keep their own terms.
+
+- **Text:** The contract of 1908 and Signal Corps Specification No. 486. Believed to be in the public domain. Details are under Sources above.
+- **Images:** None.
+- **Fonts:** Old Standard TT, Special Elite, UnifrakturCook and Mrs Saint Delafield, under the licenses in `FONT-LICENSES.md`.
+
+This is an unofficial copy, not an official version of the text.
